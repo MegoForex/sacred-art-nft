@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sam's Sacred Art Collection &mdash; 112 Original Spiritual NFTs</title>
-<meta name="description" content="112 orighinal hand-painted spiritual arhtworks on the blockchain. Shiva, Ganesh, Buddha, Yantras, Feng Shui. Each NFT is a one-of-a-kind masterpiece rooted in Vedic tradition.">
+<title>Sam's Sacred Art Collection — 112 Original Spiritual NFTs</title>
+<meta name="description" content="112 original hand-painted spiritual artworks on the blockchain. Shiva, Ganesh, Buddha, Yantras, Feng Shui. Each NFT is a one-of-a-kind masterpiece rooted in Vedic tradition.">
 <meta property="og:title" content="Sam's Sacred Art Collection">
 <meta property="og:description" content="112 original hand-painted spiritual artworks. From $200. On Polygon.">
 <meta property="og:image" content="images/shiva.jpg">
@@ -166,76 +166,6 @@
   .about-inner { max-width:720px; }
   .about p { font-size:1rem; color:rgba(237,232,208,0.8); line-height:1.8; margin-bottom:20px; }
 
-  /* OWN THE ORIGINAL */
-  .original {
-    background: linear-gradient(135deg, #0d0a20 0%, #1a1035 100%);
-    border-top: 1px solid var(--border);
-  }
-  .original-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
-    align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  .original-left h2 { font-size: clamp(1.6rem,3vw,2.4rem); margin-bottom: 16px; }
-  .original-left p { color: rgba(237,232,208,0.75); line-height: 1.8; margin-bottom: 14px; }
-  .original-badge {
-    display: inline-block;
-    background: rgba(212,175,55,0.12);
-    border: 1px solid var(--gold);
-    color: var(--gold);
-    font-size: 0.78rem;
-    letter-spacing: 0.12em;
-    padding: 6px 16px;
-    border-radius: 20px;
-    margin-bottom: 24px;
-    text-transform: uppercase;
-  }
-  .ship-note {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    background: rgba(255,153,51,0.08);
-    border: 1px solid rgba(255,153,51,0.2);
-    border-radius: 10px;
-    padding: 14px 18px;
-    margin-top: 20px;
-    font-size: 0.88rem;
-    color: var(--saffron);
-  }
-  .ship-icon { font-size: 1.4rem; }
-  .contact-cards { display: flex; flex-direction: column; gap: 14px; }
-  .contact-card {
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 20px 24px;
-    display: flex;
-    align-items: center;
-    gap: 18px;
-    text-decoration: none;
-    transition: border-color 0.2s, background 0.2s;
-  }
-  .contact-card:hover { border-color: var(--gold); background: rgba(212,175,55,0.07); }
-  .contact-icon { font-size: 1.6rem; flex-shrink: 0; }
-  .contact-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 4px; }
-  .contact-value { color: var(--text); font-size: 0.95rem; font-weight: 500; }
-  .price-tag {
-    background: rgba(212,175,55,0.1);
-    border: 1px solid rgba(212,175,55,0.3);
-    border-radius: 10px;
-    padding: 14px 20px;
-    text-align: center;
-    margin-bottom: 14px;
-  }
-  .price-tag-label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 6px; }
-  .price-tag-value { font-size: 1.3rem; color: var(--gold); font-weight: 700; }
-  @media(max-width:900px) {
-    .original-grid { grid-template-columns: 1fr; gap: 40px; }
-  }
-
   /* CTA FOOTER */
   .cta-footer {
     background: linear-gradient(135deg, #0D0B22 0%, #1A1035 50%, #0D0B22 100%);
@@ -244,6 +174,53 @@
   .cta-footer h2 { font-size:clamp(1.6rem,3vw,2.6rem); margin-bottom:16px; }
   .cta-footer p { color:var(--muted); margin-bottom:40px; font-size:1rem; }
   .om { font-size:5rem; color:rgba(212,175,55,0.15); margin-bottom:32px; display:block; }
+
+  /* SIGNUP SECTION */
+  .signup {
+    background: linear-gradient(135deg, #0D0B22 0%, #130E2E 50%, #0D0B22 100%);
+    border-top: 1px solid var(--border);
+    text-align: center;
+  }
+  .signup h2 { margin-bottom: 16px; }
+  .signup .subtitle { margin: 0 auto 48px; }
+  .ml-form-wrapper {
+    max-width: 520px;
+    margin: 0 auto;
+  }
+  /* Override MailerLite form colors to match dark theme */
+  .ml-form-wrapper .ml-form-embedWrapper {
+    background: transparent !important;
+  }
+  .ml-form-wrapper .ml-form-embedBody {
+    background: rgba(17,13,42,0.8) !important;
+    border: 1px solid var(--border) !important;
+    border-radius: 12px !important;
+  }
+  .ml-form-wrapper .ml-form-fieldRow input {
+    background: rgba(255,255,255,0.05) !important;
+    border: 1px solid rgba(212,175,55,0.3) !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+  }
+  .ml-form-wrapper .ml-form-fieldRow input::placeholder { color: rgba(237,232,208,0.4) !important; }
+  .ml-form-wrapper button[type="submit"] {
+    background: var(--gold) !important;
+    color: #0A0818 !important;
+    font-weight: 700 !important;
+    border-radius: 6px !important;
+  }
+  .inventory-bar {
+    display: inline-flex; align-items: center; gap: 12px;
+    background: rgba(212,175,55,0.08); border: 1px solid var(--border);
+    border-radius: 50px; padding: 10px 24px; margin-bottom: 36px;
+    font-size: 0.85rem; color: var(--text);
+  }
+  .inventory-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #4CAF50; box-shadow: 0 0 6px #4CAF50;
+    flex-shrink: 0;
+  }
+  .inventory-num { color: var(--gold); font-weight: 700; }
 
   /* FOOTER */
   footer {
@@ -275,8 +252,8 @@
 
 <!-- NAV -->
 <nav>
-  <div class="nav-brand">&#x950; Sam's Sacred Art</div>
-  <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="nav-cta">View on OpenSea &rarr;</a>
+  <div class="nav-brand">ॐ Sam's Sacred Art</div>
+  <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="nav-cta">View on OpenSea →</a>
 </nav>
 
 <!-- HERO -->
@@ -284,11 +261,11 @@
   <div class="hero-bg"></div>
   <img src="images/shiva.jpg" alt="Third Eye of Shankar" class="hero-img">
   <div class="hero-content">
-    <div class="hero-tag">112 Original Paintings &middot; On Blockchain</div>
+    <div class="hero-tag">112 Original Paintings · On Blockchain</div>
     <h1>Sacred Art.<br><span>Timeless Energy.</span><br>Now on Web3.</h1>
-    <p>112 one-of-a-kind hand-painted spiritual masterpieces rooted in Vedic tradition &mdash; Shiva, Ganesh, Buddha, Lakshmi, Yantras and more. Each NFT is a real, physical painting preserved forever on the blockchain.</p>
+    <p>112 one-of-a-kind hand-painted spiritual masterpieces rooted in Vedic tradition — Shiva, Ganesh, Buddha, Lakshmi, Yantras and more. Each NFT is a real, physical painting preserved forever on the blockchain.</p>
     <div class="hero-btns">
-      <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="btn-primary">Buy on OpenSea &rarr;</a>
+      <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="btn-primary">Buy on OpenSea →</a>
       <a href="#gallery" class="btn-secondary">View Collection</a>
     </div>
   </div>
@@ -306,119 +283,119 @@
 <section class="gallery" id="gallery">
   <div class="section-tag">The Collection</div>
   <h2>Featured Pieces</h2>
-  <p class="subtitle">Every piece is hand-painted on canvas &mdash; no prints, no AI, no mass production. When you own one, you own a unique spiritual original.</p>
+  <p class="subtitle">Every piece is hand-painted on canvas — no prints, no AI, no mass production. When you own one, you own a unique spiritual original.</p>
   <div class="gallery-grid">
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
       <img src="images/shiva.jpg" alt="Eyes of Shankar">
       <div class="card-body">
-        <div class="card-tier">Tier 1 &middot; Shiva Series</div>
-        <div class="card-title">Eyes of Shankar &mdash; The Third Eye Awakens</div>
+        <div class="card-tier">Tier 1 · Shiva Series</div>
+        <div class="card-title">Eyes of Shankar — The Third Eye Awakens</div>
         <div class="card-price">$500</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
       <img src="images/shiva2.jpg" alt="Shiv Mahamrityunjay">
       <div class="card-body">
-        <div class="card-tier">Tier 1 &middot; Shiva Series</div>
-        <div class="card-title">Shiv Mahamrityunjay &mdash; Immortality Painting</div>
+        <div class="card-tier">Tier 1 · Shiva Series</div>
+        <div class="card-title">Shiv Mahamrityunjay — Immortality Painting</div>
         <div class="card-price">$500</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
       <img src="images/buddha.jpg" alt="Buddha in Eternal Blessing">
       <div class="card-body">
-        <div class="card-tier">Tier 2 &middot; Buddha Series</div>
+        <div class="card-tier">Tier 2 · Buddha Series</div>
         <div class="card-title">Buddha in Eternal Blessing</div>
         <div class="card-price">$300</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
       <img src="images/buddha2.jpg" alt="Buddha with Flower">
       <div class="card-body">
-        <div class="card-tier">Tier 2 &middot; Buddha Series</div>
-        <div class="card-title">Buddha with Flower &mdash; Compassion in Bloom</div>
+        <div class="card-tier">Tier 2 · Buddha Series</div>
+        <div class="card-title">Buddha with Flower — Compassion in Bloom</div>
         <div class="card-price">$300</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
-      <img src="images/ganesh.jpg" alt="Ganesh &mdash; The Auspicious One">
+      <img src="images/ganesh.jpg" alt="Ganesh — The Auspicious One">
       <div class="card-body">
-        <div class="card-tier">Tier 3 &middot; Deity Series</div>
-        <div class="card-title">Ganesh &mdash; The Auspicious One</div>
+        <div class="card-tier">Tier 3 · Deity Series</div>
+        <div class="card-title">Ganesh — The Auspicious One</div>
         <div class="card-price">$250</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
       <img src="images/ganesh2.jpg" alt="Ganesh Creation">
       <div class="card-body">
-        <div class="card-tier">Tier 3 &middot; Deity Series</div>
-        <div class="card-title">Ganesh Creation &mdash; Luminous Form</div>
+        <div class="card-tier">Tier 3 · Deity Series</div>
+        <div class="card-title">Ganesh Creation — Luminous Form</div>
         <div class="card-price">$250</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
       <img src="images/lakshmi.jpg" alt="Gaj Lakshmi">
       <div class="card-body">
-        <div class="card-tier">Tier 3 &middot; Wealth Series</div>
-        <div class="card-title">Gaj Lakshmi &mdash; Elephants of Abundance</div>
+        <div class="card-tier">Tier 3 · Wealth Series</div>
+        <div class="card-title">Gaj Lakshmi — Elephants of Abundance</div>
         <div class="card-price">$250</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
     <a class="card" href="https://opensea.io/collection/sams-collection-861602437" target="_blank">
       <img src="images/yantra.jpg" alt="Sacred Yantra">
       <div class="card-body">
-        <div class="card-tier">Tier 1 &middot; Shiva Series</div>
-        <div class="card-title">Barbha Shankar &mdash; The Fierce Form</div>
+        <div class="card-tier">Tier 1 · Shiva Series</div>
+        <div class="card-title">Barbha Shankar — The Fierce Form</div>
         <div class="card-price">$500</div>
-        <div class="card-btn">Buy on OpenSea &rarr;</div>
+        <div class="card-btn">Buy on OpenSea →</div>
       </div>
     </a>
   </div>
   <div style="text-align:center;margin-top:48px;">
-    <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="btn-primary" style="display:inline-flex;">View All 112 Pieces on OpenSea &rarr;</a>
+    <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="btn-primary" style="display:inline-flex;">View All 112 Pieces on OpenSea →</a>
   </div>
 </section>
 
 <!-- TIERS -->
 <section class="tiers" id="tiers">
-  <div class="section-tag">Rarity & Pricing</div>
+  <div class="section-tag">Rarity &amp; Pricing</div>
   <h2>4 Sacred Tiers</h2>
-  <p class="subtitle">Each painting is categorised by its spiritual energy, subject, and rarity. All pieces are one-of-a-kind &mdash; once sold, they are gone forever.</p>
+  <p class="subtitle">Each painting is categorised by its spiritual energy, subject, and rarity. All pieces are one-of-a-kind — once sold, they are gone forever.</p>
   <div class="tiers-grid">
     <div class="tier-card t1">
-      <div class="tier-icon">&#x1F531;</div>
-      <div class="tier-name">Tier 1 &middot; Highest</div>
+      <div class="tier-icon">🔱</div>
+      <div class="tier-name">Tier 1 · Highest</div>
       <div class="tier-subject">Shiva Series</div>
       <div class="tier-price">$500</div>
       <div class="tier-desc">The most powerful deity in the Vedic tradition. Shiva paintings carry the highest transformative energy.</div>
     </div>
     <div class="tier-card t2">
-      <div class="tier-icon">&#x2638;</div>
+      <div class="tier-icon">☸️</div>
       <div class="tier-name">Tier 2</div>
-      <div class="tier-subject">Buddha & Sikh Masters</div>
+      <div class="tier-subject">Buddha &amp; Sikh Masters</div>
       <div class="tier-price">$300</div>
-      <div class="tier-desc">Paintings of Siddhartha, Guru Nanak, and Guru Gobind Singh &mdash; masters of compassion, wisdom, and courage.</div>
+      <div class="tier-desc">Paintings of Siddhartha, Guru Nanak, and Guru Gobind Singh — masters of compassion, wisdom, and courage.</div>
     </div>
     <div class="tier-card t3">
-      <div class="tier-icon">&#x1F549;</div>
+      <div class="tier-icon">🕉️</div>
       <div class="tier-name">Tier 3</div>
-      <div class="tier-subject">Yantras, Vastu & Deities</div>
+      <div class="tier-subject">Yantras, Vastu &amp; Deities</div>
       <div class="tier-price">$250</div>
       <div class="tier-desc">Sacred geometric yantras, Ganesh, Lakshmi, and Vastu energies for abundance, protection, and harmony.</div>
     </div>
     <div class="tier-card t4">
-      <div class="tier-icon">&#x1F409;</div>
+      <div class="tier-icon">🐉</div>
       <div class="tier-name">Tier 4</div>
-      <div class="tier-subject">Feng Shui & World Traditions</div>
+      <div class="tier-subject">Feng Shui &amp; World Traditions</div>
       <div class="tier-price">$200</div>
-      <div class="tier-desc">Dragons, Mafa, tortoises, and Feng Shui symbols from Eastern traditions &mdash; wealth, longevity, protection.</div>
+      <div class="tier-desc">Dragons, Mafa, tortoises, and Feng Shui symbols from Eastern traditions — wealth, longevity, protection.</div>
     </div>
   </div>
 </section>
@@ -432,7 +409,7 @@
     <div class="step">
       <div class="step-num">1</div>
       <h3>Create a Free Wallet</h3>
-      <p>Download MetaMask (free) on your browser or phone. It's your digital wallet &mdash; takes 2 minutes to set up.</p>
+      <p>Download MetaMask (free) on your browser or phone. It's your digital wallet — takes 2 minutes to set up.</p>
     </div>
     <div class="step">
       <div class="step-num">2</div>
@@ -452,83 +429,50 @@
   <div class="about-inner">
     <div class="section-tag">The Story</div>
     <h2>Real Paint. Real Canvas.<br>Real Spiritual Energy.</h2>
-    <p>This collection is not generated by AI. It is not a digital illustration. Every single one of the 112 paintings was created by hand &mdash; brushstroke by brushstroke &mdash; by artists trained in the traditions of Indian spiritual art.</p>
+    <p>This collection is not generated by AI. It is not a digital illustration. Every single one of the 112 paintings was created by hand — brushstroke by brushstroke — by artists trained in the traditions of Indian spiritual art.</p>
     <p>The subjects span the full breadth of the Vedic universe: the fierce compassion of Shiva, the obstacle-removing grace of Ganesh, the serene wisdom of the Buddha, the abundant blessing of Lakshmi, the precise sacred geometry of the Yantras, and the universal harmony of Feng Shui.</p>
-    <p>By minting these on the Polygon blockchain, each painting now has a permanent, verifiable certificate of ownership. When you buy one, you own a piece of living spiritual heritage &mdash; forever recorded on an immutable ledger.</p>
+    <p>By minting these on the Polygon blockchain, each painting now has a permanent, verifiable certificate of ownership. When you buy one, you own a piece of living spiritual heritage — forever recorded on an immutable ledger.</p>
     <p style="color:var(--gold); font-style:italic; font-size:0.95rem;">108 is the sacred number in Hindu, Buddhist, and Jain traditions. The number of beads on a mala. The number of Upanishads. The distance between the Earth and Sun measured in solar diameters. This collection was not accidental.</p>
   </div>
 </section>
 
-<!-- OWN THE ORIGINAL -->
-<section class="original" id="original">
-  <div class="original-grid">
-    <div class="original-left">
-      <span class="original-badge">Also Available</span>
-      <h2>Own the Physical<br><span style="color:var(--gold)">Original Masterpiece</span></h2>
-      <p>Every NFT in this collection corresponds to a real, hand-painted canvas original. The NFT gives you permanent digital ownership &mdash; but the physical painting is also available for purchase separately.</p>
-      <p>These are one-of-a-kind originals. No prints. No reproductions. The same brushstroke, the same pigment, the same energy that was channelled into the creation &mdash; in your hands.</p>
-      <div class="ship-note">
-        <span class="ship-icon">&#x1F4E6;</span>
-        <span>Ships worldwide in a protective round tube &mdash; safe, discreet, and gallery-ready on arrival.</span>
-      </div>
-    </div>
-    <div class="contact-cards">
-      <div class="price-tag">
-        <div class="price-tag-label">Physical Original Pricing</div>
-        <div class="price-tag-value">Price on Request</div>
-        <div style="font-size:0.8rem;color:var(--muted);margin-top:6px;">NFT price &amp; original price are separate</div>
-      </div>
-      <a class="contact-card" href="https://wa.me/919876426571" target="_blank">
-        <span class="contact-icon">&#x1F4AC;</span>
-        <div>
-          <div class="contact-label">WhatsApp</div>
-          <div class="contact-value">+91 98764 26571</div>
-        </div>
-      </a>
-      <a class="contact-card" href="https://t.me/samgupta613" target="_blank">
-        <span class="contact-icon">&#x2708;&#xFE0F;</span>
-        <div>
-          <div class="contact-label">Telegram</div>
-          <div class="contact-value">@samgupta613</div>
-        </div>
-      </a>
-      <a class="contact-card" href="mailto:dakshfarms@gmail.com">
-        <span class="contact-icon">&#x2709;&#xFE0F;</span>
-        <div>
-          <div class="contact-label">Email</div>
-          <div class="contact-value">dakshfarms@gmail.com</div>
-        </div>
-      </a>
-    </div>
+<!-- EMAIL SIGNUP -->
+<section class="signup" id="signup">
+  <div class="section-tag">Collectors List</div>
+  <h2>Be the First to Know<br>What's Still Available</h2>
+  <p class="subtitle">112 paintings. They sell one at a time — and each one that sells is gone permanently. Join the collectors list for updates on available pieces, sold notifications, and first access to future collections.</p>
+  <div class="inventory-bar">
+    <div class="inventory-dot"></div>
+    <span><span class="inventory-num">112</span> original paintings currently available</span>
+  </div>
+  <div class="ml-form-wrapper">
+    <div class="ml-embedded" data-form="7xmjCI"></div>
   </div>
 </section>
 
-<!-- NEWSLETTER SIGNUP -->
-<section class="newsletter-section" style="background:var(--panel);padding:80px 24px;text-align:center;border-top:1px solid var(--border);">
-  <div class="section-tag">Stay Connected</div>
-  <h2 style="margin-bottom:12px;">Get Notified of New Drops</h2>
-  <p style="color:var(--muted);margin-bottom:32px;">Join collectors already following the collection. Be first to know when new pieces are available.</p>
-  <div class="ml-embedded" data-form="9OLaTK"></div>
-</section>
-<!-- END NEWSLETTER -->
-
 <!-- CTA FOOTER -->
 <div class="cta-footer">
-  <span class="om">&#x950;</span>
+  <span class="om">ॐ</span>
   <h2>112 Pieces. One Chance.<br>Own Yours Today.</h2>
   <p>Once a painting is sold, it is gone. There are no reprints, no second editions, no copies.</p>
-  <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="btn-primary" style="font-size:1.1rem;padding:16px 40px;">Browse the Full Collection &rarr;</a>
+  <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank" class="btn-primary" style="font-size:1.1rem;padding:16px 40px;">Browse the Full Collection →</a>
 </div>
 
 <!-- FOOTER -->
 <footer>
-  <p>&copy; 2026 Sam's Sacred Art Collection. All rights reserved.</p>
+  <p>© 2026 Sam's Sacred Art Collection. All rights reserved.</p>
   <a href="https://opensea.io/collection/sams-collection-861602437" target="_blank">View on OpenSea</a>
 </footer>
 
+<!-- MailerLite Universal -->
 <script>
-  (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[]).push(arguments);},l=d.createElement(e),l.async=1,l.src=u,n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-  ml('account', '2453041');
-<\/script>
+(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+.push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+ml('account', '2453041');
+</script>
+<!-- End MailerLite Universal -->
+
 </body>
 </html>
